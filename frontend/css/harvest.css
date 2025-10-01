@@ -1,0 +1,67 @@
+body {
+    background: url(images/harvestbg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.icon {
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #007bff;
+}
+
+.form-control {
+    padding-left: 2.5rem;
+    border-radius: 50px;
+    border: 2px solid #007bff;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.table tbody tr {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+    color: #007bff;
+}
+
+.table-hover tbody tr:hover td {
+    border-color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 100px;
+    }
+}
