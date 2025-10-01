@@ -1,0 +1,57 @@
+body {
+	background: url(/frontend/img/loginbg3.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Arial', sans-serif;
+}
+
+.card {
+	border: none;
+	border-radius: 10px;
+	backdrop-filter: blur(10px);
+}
+
+.icon {
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	color: #007bff;
+}
+
+.form-control {
+	padding-left: 2.5rem;
+	border-radius: 50px;
+}
+
+.btn {
+	border-radius: 50px;
+}
+
+.text-primary {
+	color: #007bff !important;
+}
+
+.text-primary:hover {
+	text-decoration: underline;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, select:focus {
+	box-shadow: none;
+	border-color: #007bff;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Additional styling for your content if needed */
+.container {
+    position: relative;
+    z-index: 1;
+}
+
