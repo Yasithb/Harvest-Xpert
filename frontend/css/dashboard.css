@@ -1,0 +1,74 @@
+body {
+    background: url(images/logobg3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.icon {
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #007bff;
+}
+
+.form-control {
+    padding-left: 2.5rem;
+    border-radius: 50px;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.btn {
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-primary:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+}
+
+@media (max-width: 576px) {
+    .form-control {
+        padding-left: 2rem;
+    }
+
+    .icon {
+        left: 10px;
+    }
+}
